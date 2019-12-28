@@ -38,6 +38,9 @@ module.exports = {
       }
     ],
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   devServer: {
     // The dev server will serve content from this directory.
     contentBase: './dist',
