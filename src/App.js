@@ -1,9 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react'
+import StatSearchFields from './StatSearchFields'
+import StatTable from './StatTable'
 
 const App = () => {
     return (
-        <h1>App</h1>
+        <div>
+            <StatSearchFields />
+            <StatTable />
+        </div>
     )
 }
 
-export default App;
+export default App
